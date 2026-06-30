@@ -1,0 +1,16 @@
+# Local micro-plugins and modules
+.terraform/
+
+# Lock files that are created during execution
+.terraform.tfstate.lock.info
+
+# Local state files
+state.tf
+
+# Ignore all variable files containing actual secrets
+*.tfvars
+*.tfvars.json
+
+# Crash logs
+crash.log
+crash.*.log
